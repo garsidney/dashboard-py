@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import pandas as pd
 
 # Cargar dataset
-df = pd.read_csv(r"Software_Defect_Prediction_Dataset.csv")
+df = pd.read_csv(r"data/Software_Defect_Prediction_Dataset.csv")
 
 buggy = df[df["defect_label"]=="Buggy"]
 clean = df[df["defect_label"]=="Clean"]
