@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: dashboard-bugs-java
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn dashboard:server

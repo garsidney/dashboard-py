@@ -89,5 +89,7 @@ app.layout = html.Div(style={"fontFamily": "Arial, sans-serif", "backgroundColor
               "boxShadow": "0 2px 5px rgba(0,0,0,0.1)", "textAlign": "center"})
 ])
 
+server = app.server
+
 if __name__ == "__main__":
     app.run(debug=True)
